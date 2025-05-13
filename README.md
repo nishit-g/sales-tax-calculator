@@ -21,36 +21,9 @@ cd sales-tax-calculator
 npm install
 ```
 
-### Demo
+## Demo
 
-<div align="center">
-  <a href="https://github.com/nishit-g/sales-tax-calculator/blob/main/aisle-demo.cast?raw=true" download>
-    <img src="https://asciinema.org/a/404275.svg" width="720"/>
-  </a>
-  <p><i>Click to download the terminal demo (view with <a href="https://asciinema.org/docs/installation">Asciinema player</a>)</i></p>
-</div>
-
-<details>
-  <summary>How to view the demo</summary>
-
-1. Download the `.cast` file by clicking the image above
-2. Install Asciinema if you don't have it:
-
-   ```bash
-   # MacOS
-   brew install asciinema
-
-   # Ubuntu/Debian
-   sudo apt install asciinema
-
-   # Other options at https://asciinema.org/docs/installation
-   ```
-
-3. Play the demo:
-`bash
-     asciinema play aisle-demo.cast
-     `
-</details>
+![Sales Tax Calculator Demo](./aisle-demo.gif)
 
 ## Usage
 
