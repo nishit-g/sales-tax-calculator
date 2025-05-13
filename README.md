@@ -79,8 +79,6 @@ Sales Taxes: 1.50
 Total: 29.83
 ```
 
-```
-
 ## Project Structure
 
 ```
@@ -99,7 +97,7 @@ sales-tax-calculator/
 ├── start-interactive.js # Interactive mode launcher
 └── README.md
 
-````
+```
 
 ## Key Classes
 
@@ -117,7 +115,7 @@ Run tests with:
 
 ```bash
 npm test
-````
+```
 
 Tests cover:
 
