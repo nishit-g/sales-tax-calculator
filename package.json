@@ -1,0 +1,40 @@
+{
+  "name": "sales-tax-calculator",
+  "version": "0.0.1",
+  "description": "A calculator for sales tax based on different product categories",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "interactive": "node start-interactive.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.0",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  }
+}
